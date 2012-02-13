@@ -3,7 +3,7 @@
 //  curledViews
 //
 //  Created by Ryan Kelly on 2/9/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Remote Vision, Inc. All rights reserved.
 //
 
 #import "ViewController.h"
