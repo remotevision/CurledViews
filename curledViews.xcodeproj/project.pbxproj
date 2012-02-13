@@ -10,6 +10,7 @@
 		E48F98DF14E5A7A60022EE17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48F98DE14E5A7A60022EE17 /* QuartzCore.framework */; };
 		E48F98E214E5F1350022EE17 /* raptor_face.png in Resources */ = {isa = PBXBuildFile; fileRef = E48F98E014E5F1350022EE17 /* raptor_face.png */; };
 		E48F98E314E5F1350022EE17 /* stegasaurus_face.png in Resources */ = {isa = PBXBuildFile; fileRef = E48F98E114E5F1350022EE17 /* stegasaurus_face.png */; };
+		E4A7D1D514E8B2FA00EC2D19 /* UIImageView+Curled.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A7D1D414E8B2FA00EC2D19 /* UIImageView+Curled.m */; };
 		E4E4A20A14E4B42200A4F574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E4A20914E4B42200A4F574 /* UIKit.framework */; };
 		E4E4A20C14E4B42200A4F574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E4A20B14E4B42200A4F574 /* Foundation.framework */; };
 		E4E4A20E14E4B42200A4F574 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E4A20D14E4B42200A4F574 /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 		E48F98DE14E5A7A60022EE17 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E48F98E014E5F1350022EE17 /* raptor_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raptor_face.png; sourceTree = "<group>"; };
 		E48F98E114E5F1350022EE17 /* stegasaurus_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stegasaurus_face.png; sourceTree = "<group>"; };
+		E4A7D1D314E8B2FA00EC2D19 /* UIImageView+Curled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Curled.h"; path = "curledView/UIImageView+Curled.h"; sourceTree = "<group>"; };
+		E4A7D1D414E8B2FA00EC2D19 /* UIImageView+Curled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Curled.m"; path = "curledView/UIImageView+Curled.m"; sourceTree = "<group>"; };
 		E4E4A20514E4B42200A4F574 /* curledViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = curledViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E4A20914E4B42200A4F574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E4E4A20B14E4B42200A4F574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,6 +128,8 @@
 				E4E4A22B14E4B80000A4F574 /* CurledViewBase.m */,
 				E4E4A23014E4B87C00A4F574 /* UIButton+Curled.h */,
 				E4E4A23114E4B87C00A4F574 /* UIButton+Curled.m */,
+				E4A7D1D314E8B2FA00EC2D19 /* UIImageView+Curled.h */,
+				E4A7D1D414E8B2FA00EC2D19 /* UIImageView+Curled.m */,
 			);
 			name = curledView;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				E4E4A21D14E4B42200A4F574 /* ViewController.m in Sources */,
 				E4E4A22C14E4B80000A4F574 /* CurledViewBase.m in Sources */,
 				E4E4A23214E4B87C00A4F574 /* UIButton+Curled.m in Sources */,
+				E4A7D1D514E8B2FA00EC2D19 /* UIImageView+Curled.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
