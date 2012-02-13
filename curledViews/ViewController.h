@@ -10,5 +10,6 @@
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIButton *photoButton;
+@property (strong, nonatomic) IBOutlet UIImageView *photoImageView;
 
 @end

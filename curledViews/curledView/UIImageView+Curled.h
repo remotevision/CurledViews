@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImageView (Curled)
-
+-(void)setImage:(UIImage*)image borderWidth:(CGFloat)borderWidth shadowDepth:(CGFloat)shadowHeight controlPointXOffset:(CGFloat)controlPointXOffset controlPointYOffset:(CGFloat)controlPointYOffset;
 @end
