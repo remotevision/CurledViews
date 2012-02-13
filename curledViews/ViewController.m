@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "UIButton+Curled.h"
 
 @implementation ViewController
+@synthesize photoButton;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +28,7 @@
 
 - (void)viewDidUnload
 {
+    [self setPhotoButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -39,6 +42,13 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    
+    
+    // configure images and border for a Custom UIButton
+    [photoButton setContentMode:UIViewContentModeScaleToFill];
+    [photoButton setImage:[UIImage imageNamed:@"raptor_face.png"] borderWidth:5.0 shadowDepth:10.0 controlPointXOffset:30.0 controlPointYOffset:70.0 forState:UIControlStateNormal];
+    
+    [photoButton setImage:[UIImage imageNamed:@"stegasaurus_face.png"] borderWidth:5.0 shadowDepth:10.0 controlPointXOffset:30.0 controlPointYOffset:70.0 forState:UIControlStateHighlighted];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
