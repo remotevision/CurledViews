@@ -17,4 +17,4 @@ To use it:
 	
 That's it! Feel free to fork and add pull requests so we can incorporate your changes for everyone.
 
- [1]: https://github.com/remotevision/CurledViews/tree/master/ "screenshot"
+ [1]: https://github.com/remotevision/CurledViews/tree/master/screenshot.png
