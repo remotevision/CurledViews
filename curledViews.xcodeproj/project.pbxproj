@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E472455A14E9DBE1009D2086 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E472455714E9DBE1009D2086 /* LICENSE */; };
+		E472455B14E9DBE1009D2086 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E472455814E9DBE1009D2086 /* README.md */; };
+		E472455C14E9DBE1009D2086 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = E472455914E9DBE1009D2086 /* screenshot.png */; };
 		E48F98DF14E5A7A60022EE17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48F98DE14E5A7A60022EE17 /* QuartzCore.framework */; };
 		E48F98E214E5F1350022EE17 /* raptor_face.png in Resources */ = {isa = PBXBuildFile; fileRef = E48F98E014E5F1350022EE17 /* raptor_face.png */; };
 		E48F98E314E5F1350022EE17 /* stegasaurus_face.png in Resources */ = {isa = PBXBuildFile; fileRef = E48F98E114E5F1350022EE17 /* stegasaurus_face.png */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E472455714E9DBE1009D2086 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E472455814E9DBE1009D2086 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		E472455914E9DBE1009D2086 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		E48F98DE14E5A7A60022EE17 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E48F98E014E5F1350022EE17 /* raptor_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raptor_face.png; sourceTree = "<group>"; };
 		E48F98E114E5F1350022EE17 /* stegasaurus_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stegasaurus_face.png; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 		E4E4A1FA14E4B42200A4F574 = {
 			isa = PBXGroup;
 			children = (
+				E472455714E9DBE1009D2086 /* LICENSE */,
+				E472455814E9DBE1009D2086 /* README.md */,
+				E472455914E9DBE1009D2086 /* screenshot.png */,
 				E4E4A20F14E4B42200A4F574 /* curledViews */,
 				E4E4A20814E4B42200A4F574 /* Frameworks */,
 				E4E4A20614E4B42200A4F574 /* Products */,
@@ -189,6 +198,9 @@
 				E4E4A22314E4B42200A4F574 /* ViewController_iPad.xib in Resources */,
 				E48F98E214E5F1350022EE17 /* raptor_face.png in Resources */,
 				E48F98E314E5F1350022EE17 /* stegasaurus_face.png in Resources */,
+				E472455A14E9DBE1009D2086 /* LICENSE in Resources */,
+				E472455B14E9DBE1009D2086 /* README.md in Resources */,
+				E472455C14E9DBE1009D2086 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
