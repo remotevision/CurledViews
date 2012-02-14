@@ -1,7 +1,7 @@
 # What are these categories for?
 
 While building a kids math game for iOS, I needed a custom UIButton that would make the user's profile picture look like a bordered photo that was naturally taped or paperclipped to the notebook. 
-[1]
+![screenshot](https://github.com/remotevision/CurledViews/tree/master/screenshot.png)
 
 
 # Using the library
@@ -16,5 +16,3 @@ To use it:
 	
 	
 That's it! Feel free to fork and add pull requests so we can incorporate your changes for everyone.
-
- [1]: https://github.com/remotevision/CurledViews/tree/master/screenshot.png
